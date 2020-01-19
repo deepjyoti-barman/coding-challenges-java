@@ -1,5 +1,5 @@
 # Coding Challenges in Java
-Includes problems and source code of solutions to many different general, intermediate and advanced level coding challenges given in interviews or any competitive programming competition.
+Includes problems and source code of solutions to many different general, intermediate and advanced level coding challenges given in exams (online/offline) or competitive programming rounds of interviews.
 
 
 ## What's included

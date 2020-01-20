@@ -172,6 +172,26 @@ coding-challenges-java/
     Output-2: 45123
 ```
 
+### Recursion
+
+```text
+- 001_Write a program to print a message N times without using any loop, using a recursive method.
+     Input: Hello World
+            3
+    Output: Hello World
+            Hello World
+            Hello World
+
+- 002_Write a program to find the factorial of a number using recursion.
+     Input: 5
+    Output: 120
+
+- 003_Write a program to reverse a string using recursion.
+     Input: hello
+    Output: olleh
+```
+
+
 ## Creators
 
 **Deepjyoti Barman**

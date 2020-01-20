@@ -46,72 +46,72 @@ class BubbleSort
     }
 
     // Sorts the array in ascending order using Bubble Sort algorithm
-	public static void bubbleSortAsc(int[] arr)
-	{
-		// Outer loop is used to calculate the total no of passes
-		// No of pass = No of elements in the array - 1 (i.e. 5 elements = 4 passes)
-		// After each pass one element is going to be placed in its proper position
-		// i.e. After first pass the maximum element is going to placed into the last index of the array
-		for (int i = 0; i < arr.length - 1; i++)
-		{
-			// Inner loop is used to perform comparisons with remaining unsorted elements of the array
-			for (int j = 0; j < arr.length - i - 1; j++)
-			{
-				if (arr[j] > arr[j + 1])
-				{
-					swap(arr, j, j + 1);
-				}
-			}
-		}
+    public static void bubbleSortAsc(int[] arr)
+    {
+        // Outer loop is used to calculate the total no of passes
+        // No of pass = No of elements in the array - 1 (i.e. 5 elements = 4 passes)
+        // After each pass one element is going to be placed in its proper position
+        // i.e. After first pass the maximum element is going to placed into the last index of the array
+        for (int i = 0; i < arr.length - 1; i++)
+        {
+            // Inner loop is used to perform comparisons with remaining unsorted elements of the array
+            for (int j = 0; j < arr.length - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    swap(arr, j, j + 1);
+                }
+            }
+        }
     }
     
     // Sorts the array in descending order using Bubble Sort algorithm
-	public static void bubbleSortDesc(int[] arr)
-	{
-		// Outer loop is used to calculate the total no of passes
-		// No of pass = No of elements in the array - 1 (i.e. 5 elements = 4 passes)
-		// After each pass one element is going to be placed in its proper position
-		// i.e. After first pass the minimum element is going to placed into the last index of the array
-		for (int i = 0; i < arr.length - 1; i++)
-		{
-			// Inner loop is used to perform comparisons with remaining unsorted elements of the array
-			for (int j = 0; j < arr.length - i - 1; j++)
-			{
-				if (arr[j] < arr[j + 1])
-				{
-					swap(arr, j, j + 1);
-				}
-			}
-		}
-	}
+    public static void bubbleSortDesc(int[] arr)
+    {
+        // Outer loop is used to calculate the total no of passes
+        // No of pass = No of elements in the array - 1 (i.e. 5 elements = 4 passes)
+        // After each pass one element is going to be placed in its proper position
+        // i.e. After first pass the minimum element is going to placed into the last index of the array
+        for (int i = 0; i < arr.length - 1; i++)
+        {
+            // Inner loop is used to perform comparisons with remaining unsorted elements of the array
+            for (int j = 0; j < arr.length - i - 1; j++)
+            {
+                if (arr[j] < arr[j + 1])
+                {
+                    swap(arr, j, j + 1);
+                }
+            }
+        }
+    }
 
     // Prints the elements of the array
     public static void displayArray(int[] arr)
     {
-		System.out.print("[");
-		for (int i = 0; i < arr.length; i++)
-		{
-			if (i == arr.length - 1)
-				System.out.print(arr[i]);
-			else
-				System.out.print(arr[i] + ", ");
-		}
-		System.out.print("]");
-	}
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++)
+        {
+            if (i == arr.length - 1)
+                System.out.print(arr[i]);
+            else
+                System.out.print(arr[i] + ", ");
+        }
+        System.out.print("]");
+    }
 
-	public static void main(String[] args)
-	{
+    public static void main(String[] args)
+    {
         System.out.println("Enter the length of the array:");
         int[] arr = initArray(sc.nextInt());
 
         System.out.println("\nInitial array:");
-		displayArray(arr);
-
-		bubbleSortAsc(arr);
-
-		System.out.println("\n\nSorted array in ascending order:");
         displayArray(arr);
-        
+
+        bubbleSortAsc(arr);
+
+        System.out.println("\n\nSorted array in ascending order:");
+        displayArray(arr);
+
         bubbleSortDesc(arr);
 
         System.out.println("\n\nSorted array in descending order:");

@@ -19,7 +19,6 @@ import java.util.Scanner;
  * @author Deepjyoti Barman
  * @since January 18, 2020
  */
-
 class SplitNumAndReverse
 {
     // Splits the number, finds the reverse of each part, concatenates them and returns the new number

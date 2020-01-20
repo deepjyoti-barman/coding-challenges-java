@@ -19,7 +19,6 @@ import java.util.Scanner;
  * @author Deepjyoti Barman
  * @since January 18, 2020
  */
-
 class FindMaxDigitOfNum
 {
     // Returns the maximum digit present in the given number

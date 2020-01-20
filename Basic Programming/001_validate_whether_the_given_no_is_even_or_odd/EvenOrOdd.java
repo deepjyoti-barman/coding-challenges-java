@@ -19,7 +19,6 @@ import java.util.Scanner;
  * @author Deepjyoti Barman
  * @since January 18, 2020
  */
-
 class EvenOrOdd
 {
     // Validates whether the number is even or odd. If the number is even returns true; else returns false

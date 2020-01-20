@@ -191,6 +191,61 @@ coding-challenges-java/
     Output: olleh
 ```
 
+### Strings
+
+```text
+- 001_Write a program to check whether the given string is palindrome or not.
+     Input-1: madam
+    Output-1: CONGRATS! it is a palindrome
+
+     Input-2: cat
+    Output-2: SORRY! it is not a palindrome
+
+- 002_Write a program to read a sentence and a character from the user and check whether the given
+  character is present in the sentence or not. If the character is present then print its number of
+  occurrence, else print "Given character is not present in the sentence"
+     Input-1: I am a good boy
+              o
+    Output-1: 3
+
+     Input-2: she is beautiful
+              x
+    Output-2: Given character is not present in the sentence
+
+- 003_Write a program to count the number of vowels present in the given string.
+     Input-1: hello
+    Output-1: 2
+
+     Input-2: try
+    Output-2: Vowels not found
+
+- 004_Write a program to count the number of digits present in the given string.
+     Input-1: h3ll0
+    Output-1: 2
+
+     Input-2: @pple
+    Output-2: No digit found
+
+- 005_Write a program to check whether the given password is valid or not
+  [Note: A password is considered to be valid if it satisfies the following conditions (pattern):
+   - The length of the password should be at least 8 characters
+   - It should contain at least one uppercase alphabet
+   - It should contain at least one digit
+   - It should contain at least one special character
+   - It should not contain whitespace as character]
+     Input-1: Robert123@U$A
+    Output-1: The password is valid
+
+     Input-2: Ryan#7uk
+    Output-2: The password is valid
+
+     Input-3: Shane #105
+    Output-3: The password is invalid
+
+     Input-4: john*47cena
+    Output-4: The password is invalid
+```
+
 
 ## Creators
 

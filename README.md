@@ -203,7 +203,7 @@ coding-challenges-java/
 
 - 002_Write a program to read a sentence and a character from the user and check whether the given
   character is present in the sentence or not. If the character is present then print its number of
-  occurrence, else print "Given character is not present in the sentence"
+  occurrence, else print "Given character is not present in the sentence".
      Input-1: I am a good boy
               o
     Output-1: 3
@@ -226,7 +226,7 @@ coding-challenges-java/
      Input-2: @pple
     Output-2: No digit found
 
-- 005_Write a program to check whether the given password is valid or not
+- 005_Write a program to check whether the given password is valid or not.
   [Note: A password is considered to be valid if it satisfies the following conditions (pattern):
    - The length of the password should be at least 8 characters
    - It should contain at least one uppercase alphabet
@@ -244,6 +244,56 @@ coding-challenges-java/
 
      Input-4: john*47cena
     Output-4: The password is invalid
+
+- 006_Write a program to check two given strings are anagram or not (ignoring case).
+  [Note: Two strings are said to be anagram if both the strings have same set of characters, same
+  number of times]
+     Input-1: LiStEn
+              SiLEnT
+    Output-1: WOW! Both the strings are anagram
+
+     Input-2: Aim
+              Iaam
+    Output-2: SORRY! strings are not anagram
+
+     Input-3: Medicare
+              Medicine
+    Output-3: SORRY! strings are not anagram
+
+- 007_Write a program to remove all whitespace and tab(s) present in a sentence.
+  [Note: It should remove any leading, trailing and in-between whitespace or tab(s) from the string]
+     Input-1: It Is A Wonderful Day
+    Output-1: ItIsAWonderfulDay
+
+     Input-2:     Wish You A  Very Good   Morning
+    Output-2: WishYouAVeryGoodMorning
+
+- 008_Write a program to convert string into initcap case or title case.
+  [Note: First letter of all the words present in the string should be capitalized]
+     Input-1: I love my India
+    Output-1: I Love My India
+
+     Input-2: EAST OR WEST IndiA is tHe beSt
+    Output-2: East Or West India Is The Best
+
+- 009_Write a program to count the number of extra whitespace present in between a sentence.
+  [Note:
+   - There is no need to count extra whitespace present at the leading or trailing position of
+     the sentence
+   - If the whitespace count is 1 in between two words consider it as a normal whitespace
+   - If the whitespace count is 2 or more then consider it in the category of extra whitespace]
+     Input-1: Santa Claus   is  coming home
+    Output-1: 3
+
+     Input-2:    Let's make a snowman  this winter
+    Output-2: 1
+
+- 010_Write a program to count the number of words in the given sentence.
+     Input-1: Mr. Smith   is  the  owner of the car
+    Output-1: 8
+
+     Input-2: Let's eat something
+    Output-2: 3
 ```
 
 

@@ -65,6 +65,7 @@ coding-challenges-java/
     Output: 50
 
 - 003_Write a program to find the second maximum element of an array.
+  [Note: The length of the array must be >= 2]
      Input: 20 50 30 10 40
     Output: 40
 ```

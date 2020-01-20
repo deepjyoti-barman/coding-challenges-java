@@ -122,18 +122,22 @@ coding-challenges-java/
 #### Sorting Algorithms
 
 ```text
-- 001_Write a program to sort an unsorted array in ascending and descending order using Bubble Sort algorithm.
+- 001_Write a program to sort an unsorted array in ascending and descending order using Bubble Sort
+  algorithm.
      Input: 33 22 11 55 44
     Output: 11 22 33 44 55
             55 44 33 22 11
 
-- 002_Write a program to sort an unsorted array in ascending and descending order using Selection Sort algorithm.
+- 002_Write a program to sort an unsorted array in ascending and descending order using Selection Sort
+  algorithm.
      Input: 33 22 11 55 44
     Output: 11 22 33 44 55
             55 44 33 22 11
 
-- 003_Write a program to sort an unsorted array in ascending and descending order using Selection Sort algorithm.
-  [Note: In this case call the method to sort the array in ascending or descending order through method chaining
+- 003_Write a program to sort an unsorted array in ascending and descending order using Selection Sort
+  algorithm.
+  [Note: In this case call the method to sort the array in ascending or descending order through method
+  chaining.
    e.g - obj_ref.selectionSortAsc().displayArray();
          obj_ref.selectionSortDesc().displayArray();]
      Input: 33 22 11 55 44
@@ -157,8 +161,8 @@ coding-challenges-java/
      Input: 1234
     Output: 4
 
-- 003_Write a program to split a given number N in between into two parts, reverse both parts then concatenate them
-  to form a new number and print the new number as output.
+- 003_Write a program to split a given number N in between into two parts, reverse both parts then
+  concatenate them to form a new number and print the new number as output.
   [Note: N > 0 and N is of type int]
      Input-1: 1234
     Output-1: 2143

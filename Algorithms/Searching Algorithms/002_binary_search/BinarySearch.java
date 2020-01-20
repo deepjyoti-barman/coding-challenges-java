@@ -69,16 +69,16 @@ class BinarySearch
     // Prints the elements of the array
     public static void displayArray(int[] arr)
     {
-		System.out.print("[");
-		for (int i = 0; i < arr.length; i++)
-		{
-			if (i == arr.length - 1)
-				System.out.print(arr[i]);
-			else
-				System.out.print(arr[i] + ", ");
-		}
-		System.out.print("]");
-	}
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++)
+        {
+            if (i == arr.length - 1)
+                System.out.print(arr[i]);
+            else
+                System.out.print(arr[i] + ", ");
+        }
+        System.out.print("]");
+    }
 
     public static void main(String[] args)
     {
@@ -88,7 +88,7 @@ class BinarySearch
         // Sorts the array elements in ascending order
         Arrays.sort(arr);
         System.out.println("\nInitial array:");
-		displayArray(arr);
+        displayArray(arr);
 
         System.out.println("\n\nEnter the key element to search:");
         int key   = sc.nextInt();

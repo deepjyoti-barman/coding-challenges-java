@@ -42,6 +42,15 @@ class PrintMsgNTimesNoLoop
         System.out.println(msg);
     }
 
+    // [Algorithm-3]: Prints a message for the given no of time
+    public static void printMsg3(String msg, int noOfTimeToPrint)
+    {
+        System.out.println(msg);
+
+        if (noOfTimeToPrint != 1)
+            printMsg3(msg, --noOfTimeToPrint);
+    }
+
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -53,10 +62,13 @@ class PrintMsgNTimesNoLoop
         int n = sc.nextInt();
         sc.close();
 
-        System.out.println("\nPrinting the message " + n + " times for the first time");
+        System.out.println("\nPrinting the message " + n + " times using first algorithm:");
         printMsg1(str, n);
 
-        System.out.println("\nPrinting the message " + n + " times for the second time");
+        System.out.println("\nPrinting the message " + n + " times using second algorithm:");
         printMsg2(str, n);
+
+        System.out.println("\nPrinting the message " + n + " times using third algorithm:");
+        printMsg3(str, n);
     }
 }

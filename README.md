@@ -189,6 +189,23 @@ coding-challenges-java/
 - 003_Write a program to reverse a string using recursion.
      Input: hello
     Output: olleh
+
+- 004_Write a program to print numbers from 1 to N without using any loop (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input: 5
+    Output: 1
+            2
+            3
+            4
+            5
+- 005_Write a program to print numbers from N to 1 without using any loop (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input: 5
+    Output: 5
+            4
+            3
+            2
+            1
 ```
 
 ### Strings

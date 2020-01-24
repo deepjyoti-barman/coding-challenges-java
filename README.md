@@ -172,6 +172,26 @@ coding-challenges-java/
     Output-2: 45123
 ```
 
+### Patterns
+
+```text
+- 001_Write a program to generate the following pattern, where the number of rows N = 5.
+     Input: 5
+    Output: * * * * *
+            * * * * *
+            * * * * *
+            * * * * *
+            * * * * *
+
+- 002_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 0 1 0 1
+            1 0 1 0 1
+            1 0 1 0 1
+            1 0 1 0 1
+            1 0 1 0 1
+```
+
 ### Recursion
 
 ```text

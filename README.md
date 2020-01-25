@@ -190,6 +190,30 @@ coding-challenges-java/
             1 0 1 0 1
             1 0 1 0 1
             1 0 1 0 1
+
+- 003_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 0 1 0 1 0
+            0 1 0 1 0
+            0 1 0 1 0
+            0 1 0 1 0
+            0 1 0 1 0
+
+- 004_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 0 1 0 1
+            0 1 0 1 0
+            1 0 1 0 1
+            0 1 0 1 0
+            1 0 1 0 1
+
+- 005_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 0 1 0 1 0
+            1 0 1 0 1
+            0 1 0 1 0
+            1 0 1 0 1
+            0 1 0 1 0
 ```
 
 ### Recursion

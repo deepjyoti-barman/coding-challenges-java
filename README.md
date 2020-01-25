@@ -170,6 +170,11 @@ coding-challenges-java/
 
      Input-2: 54321
     Output-2: 45123
+
+- 004_Given a number N extract its first 3 digits and display it in console.
+  [Note: N >= 100 and N is of type int]
+     Input: 875160
+    Output: 875
 ```
 
 ### Patterns

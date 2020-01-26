@@ -68,6 +68,14 @@ coding-challenges-java/
   [Note: The length of the array must be >= 2]
      Input: 20 50 30 10 40
     Output: 40
+
+- 004_Write a program to the display the duplicate elements of an array.
+  [Note: The array is of type int (primitive)]
+     Input-1: 20 50 30 30 10 40 20
+    Output-1: 20 30
+
+     Input-2: 99 55 33 11 66
+    Output-2: There is no duplicate element in the array
 ```
 
 ### 2D Arrays
@@ -87,7 +95,6 @@ coding-challenges-java/
      Input-3: 10 20 40 30
               10 20
     Output-3: Given 2D arrays are different
-
 ```
 
 ### Algorithms
@@ -158,7 +165,6 @@ coding-challenges-java/
 
 - 002_Write a program to print the maximum digit of a given number N.
   [Note: N > 0 and N is of type int]
-
      Input: 1234
     Output: 4
 
@@ -175,6 +181,11 @@ coding-challenges-java/
   [Note: N >= 100 and N is of type int]
      Input: 875160
     Output: 875
+
+- 005_Write a program to reverse a number N and display it in console.
+  [Note: N > 0 and N is of type int]
+     Input: 4593
+    Output: 3954
 ```
 
 ### Patterns

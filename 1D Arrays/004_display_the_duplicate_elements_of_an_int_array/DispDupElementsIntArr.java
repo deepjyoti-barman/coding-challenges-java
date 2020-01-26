@@ -28,9 +28,6 @@ class DispDupElementsIntArr
     // Creates an array, initializes its members and returns the array reference
     public static int[] initArray(int size)
     {
-        if (size < 2)
-            throw new ArithmeticException("invalid length of array found, size of the array should be at least equal or greater than 2");
-
         // Initializes the array
         int[] arr = new int[size];
 

@@ -5,7 +5,7 @@
 // Course Name          : Java SE/Core Java
 // Faculty              : Mr. Dixith SN
 // Author               : Deepjyoti Barman
-// Date                 : January 25 (Saturday), 2020
+// Date                 : January 27 (Monday), 2020
 
 
 
@@ -15,16 +15,16 @@ import java.util.Scanner;
 /**
  * It is built to generate the following program, when the number of rows N = 5
  * 
- *      0 1 0 1 0
- *      1 0 1 0 1
- *      0 1 0 1 0
- *      1 0 1 0 1
- *      0 1 0 1 0
+ *      1 1 1 1 1
+ *      0 0 0 0 0
+ *      1 1 1 1 1
+ *      0 0 0 0 0
+ *      1 1 1 1 1
  * 
  * @author Deepjyoti Barman
- * @since January 25, 2020
+ * @since January 27, 2020
  */
-class PatternSquareT5
+class PatternSquareT6
 {
     static Scanner sc = new Scanner(System.in);
 
@@ -35,10 +35,10 @@ class PatternSquareT5
         {
             for (int j = 0; j < n; j++)
             {
-                if ((i + j) % 2 == 0)
-                    System.out.print("0 ");
-                else
+                if (i % 2 == 0)
                     System.out.print("1 ");
+                else
+                    System.out.print("0 ");
             }
 
             System.out.println();
@@ -48,12 +48,10 @@ class PatternSquareT5
     // Algorithm-2: Creates the pattern
     public static void drawPattern2(int n)
     {
-        int k = 0;
-
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i <= n; i++)
         {
             for (int j = 0; j < n; j++)
-                System.out.print(k++ % 2 + " ");
+                System.out.print(i % 2 + " ");
 
             System.out.println();
         }

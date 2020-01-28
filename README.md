@@ -76,6 +76,14 @@ coding-challenges-java/
 
      Input-2: 99 55 33 11 66
     Output-2: There is no duplicate element in the array
+
+- 005_Write a program to the display the duplicate elements of an array.
+  [Note: The array is of type String (non-primitive)]
+     Input-1: Jack Eric Robert Smith Jack Donald Eric
+    Output-1: Eric Jack
+
+     Input-2: Mike Peter Bob Daisy Diana
+    Output-2: There is no duplicate element in the array
 ```
 
 ### 2D Arrays

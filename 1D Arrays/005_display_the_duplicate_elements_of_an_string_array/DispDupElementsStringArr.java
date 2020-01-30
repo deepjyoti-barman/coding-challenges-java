@@ -50,7 +50,6 @@ class DispDupElementsStringArr
         ArrayList<String> originalList = new ArrayList<String>();
         Collections.addAll(originalList, arr);
         
-
         // Converting the list into a set to remove duplicates
         TreeSet<String> nonDupSet = new TreeSet<String>(originalList);
 

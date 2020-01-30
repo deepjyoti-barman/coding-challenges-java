@@ -194,6 +194,10 @@ coding-challenges-java/
   [Note: N > 0 and N is of type int]
      Input: 4593
     Output: 3954
+
+- 006_Write a program to print the numbers which is divisible by 3 and 5 in between 1 to N.
+     Input: 50
+    Output: 15 30 45
 ```
 
 ### Patterns

@@ -28,7 +28,7 @@ class PatternSquareT4
 {
     static Scanner sc = new Scanner(System.in);
 
-    // Algorithm-1: Creates the pattern
+    // [Algorithm-1]: Creates the pattern
     public static void drawPattern1(int n)
     {
         for (int i = 0; i < n; i++)
@@ -45,7 +45,7 @@ class PatternSquareT4
         }
     }
 
-    // Algorithm-2: Creates the pattern
+    // [Algorithm-2]: Creates the pattern
     public static void drawPattern2(int n)
     {
         int k = 1;

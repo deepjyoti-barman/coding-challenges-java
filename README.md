@@ -257,6 +257,54 @@ coding-challenges-java/
             0 0 0 0 0
             1 1 1 1 1
             0 0 0 0 0
+
+- 008_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: * * * * *
+            *       *
+            *       *
+            *       *
+            * * * * *
+
+- 009_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output:   * * *
+            * * * * *
+            * * * * *
+            * * * * *
+              * * *
+
+- 010_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 2 3 4 5
+            5 4 3 2 1
+            1 2 3 4 5
+            5 4 3 2 1
+            1 2 3 4 5
+
+- 011_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 2 3 4 5
+            a b c d e
+            1 2 3 4 5
+            a b c d e
+            1 2 3 4 5
+
+- 012_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 a 2 b 3
+            4 c 5 d 6
+            7 e 8 f 9
+            1 a 2 b 3
+            4 c 5 d 6
+
+- 013_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: 1 a 2 b 3
+            3 b 2 a 1
+            4 c 5 d 6
+            6 d 5 c 4
+            7 e 8 f 9
 ```
 
 ### Recursion

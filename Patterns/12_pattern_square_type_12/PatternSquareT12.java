@@ -5,7 +5,7 @@
 // Course Name          : Java SE/Core Java
 // Faculty              : Mr. Dixith SN
 // Author               : Deepjyoti Barman
-// Date                 : January 25 (Saturday), 2020
+// Date                 : February 03 (Monday), 2020
 
 
 
@@ -15,44 +15,41 @@ import java.util.Scanner;
 /**
  * It is built to generate the following program, when the number of rows N = 5
  * 
- *      0 1 0 1 0
- *      0 1 0 1 0
- *      0 1 0 1 0
- *      0 1 0 1 0
- *      0 1 0 1 0
+ *      1 a 2 b 3
+ *      4 c 5 d 6
+ *      7 e 8 f 9
+ *      1 a 2 b 3
+ *      4 c 5 d 6
  * 
  * @author Deepjyoti Barman
- * @since January 25, 2020
+ * @since February 03, 2020
  */
-class PatternSquareT3
+class PatternSquareT12
 {
     static Scanner sc = new Scanner(System.in);
 
-    // [Algorithm-1]: Creates the pattern
-    public static void drawPattern1(int n)
+    // Creates the pattern
+    public static void drawPattern(int n)
     {
+        int pattern1  = 1;
+        char pattern2 = 'a';
+
         for (int i = 0; i < n; i++)
         {
+            if (pattern1 > 9)
+            {
+                pattern1 = 1;
+                pattern2 = 'a';
+            }
+
             for (int j = 0; j < n; j++)
             {
                 if (j % 2 == 0)
-                    System.out.print("0 ");
+                    System.out.print(pattern1++ + " ");
                 else
-                    System.out.print("1 ");
+                    System.out.print(pattern2++ + " ");
             }
-
-            System.out.println();
-        }
-    }
-
-    // [Algorithm-2]: Creates the pattern
-    public static void drawPattern2(int n)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n; j++)
-                System.out.print(j % 2 + " ");
-
+            
             System.out.println();
         }
     }
@@ -64,10 +61,7 @@ class PatternSquareT3
         System.out.println();
         sc.close();
         
-        System.out.println("Pattern using first algorithm:");
-        drawPattern1(n);
-        
-        System.out.println("\nPattern using second algorithm:");
-        drawPattern2(n);
+        System.out.println("Pattern:");
+        drawPattern(n);
     }
 }

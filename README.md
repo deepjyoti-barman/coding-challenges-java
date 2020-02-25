@@ -305,6 +305,61 @@ coding-challenges-java/
             4 c 5 d 6
             6 d 5 c 4
             7 e 8 f 9
+
+- 014_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: *
+            * *
+            * * *
+            * * * *
+            * * * * *
+
+- 015_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: * * * * *
+              * * * *
+                * * *
+                  * *
+                    *
+
+- 016_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output:         *
+                  * *
+                * * *
+              * * * *
+            * * * * *
+
+- 017_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: * * * * *
+            * * * *
+            * * *
+            * *
+            *
+
+- 018_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output:     *
+               * *
+              * * *
+             * * * *
+            * * * * *
+
+- 019_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output:         *
+                  * * *
+                * * * * *
+              * * * * * * *
+            * * * * * * * * *
+
+- 020_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 4
+    Output:        1
+                 3 2
+               6 5 4
+            10 9 8 7
 ```
 
 ### Recursion
@@ -333,6 +388,7 @@ coding-challenges-java/
             3
             4
             5
+
 - 005_Write a program to print numbers from N to 1 without using any loop (by using recursion)
   [Note: N >= 1 and N is of type int]
      Input: 5
@@ -341,6 +397,48 @@ coding-challenges-java/
             3
             2
             1
+
+- 006_Write a program to find the Nth term of fibonacci series (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 5
+    Output-1: 3
+
+     Input-2: 10
+    Output-2: 34
+
+- 007_Write a program to generate fibonacci series upto the Nth term (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 5
+    Output-1: 0 1 1 2 3
+
+     Input-2: 10
+    Output-2: 0 1 1 2 3 5 8 13 21 34
+
+- 008_Write a program to generate fibonacci series upto the Nth term (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 5
+    Output-1: 0 1 1 2 3
+
+     Input-2: 10
+    Output-2: 0 1 1 2 3 5 8 13 21 34
+
+- 009_Write a program to check whether a number is prime or not (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 5
+    Output-1: Prime
+
+     Input-2: 27
+    Output-2: Not prime
+
+- 010_Write a program to find prime numbers in between 1 to N (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 20
+    Output-1: 2 3 5 7 11 13 17
+
+- 011_Write a program to find first N prime numbers (by using recursion)
+  [Note: N >= 1 and N is of type int]
+     Input-1: 10
+    Output-1: 2 3 5 7 11 13 17 23 29 31
 ```
 
 ### Strings
@@ -446,6 +544,19 @@ coding-challenges-java/
 
      Input-2: Let's eat something
     Output-2: 3
+
+- 011_Write a program to count the occurrence of each character in a string.
+     Input: Keerthi
+    Output: K = 1
+            e = 2
+            r = 1
+            t = 1
+            h = 1
+            i = 1
+
+- 012_Write a program to find the duplicate character in a string.
+     Input: Marriage
+    Output: [a, r]
 ```
 
 

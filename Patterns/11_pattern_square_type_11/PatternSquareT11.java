@@ -49,7 +49,7 @@ class PatternSquareT11
 
     public static void main(String[] args)
     {
-        System.out.println("Enter for how many row you want to expand the pattern:");
+        System.out.println("Enter for how many row(s) you want to expand the pattern:");
         int n = sc.nextInt();
         System.out.println();
         sc.close();

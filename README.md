@@ -308,13 +308,29 @@ coding-challenges-java/
 
 - 014_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
+    Output: *       *
+              *   *
+                *
+              *   *
+            *       *
+
+- 015_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
+    Output: * * * * *
+              *   *
+                *
+              *   *
+            * * * * *
+
+- 016_Write a program to generate the following pattern, where the given no of rows N = 5.
+     Input: 5
     Output: *
             * *
             * * *
             * * * *
             * * * * *
 
-- 015_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 017_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
     Output: * * * * *
               * * * *
@@ -322,7 +338,7 @@ coding-challenges-java/
                   * *
                     *
 
-- 016_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 018_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
     Output:         *
                   * *
@@ -330,7 +346,7 @@ coding-challenges-java/
               * * * *
             * * * * *
 
-- 017_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 019_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
     Output: * * * * *
             * * * *
@@ -338,7 +354,7 @@ coding-challenges-java/
             * *
             *
 
-- 018_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 020_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
     Output:     *
                * *
@@ -346,7 +362,7 @@ coding-challenges-java/
              * * * *
             * * * * *
 
-- 019_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 021_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
     Output:         *
                   * * *
@@ -354,7 +370,7 @@ coding-challenges-java/
               * * * * * * *
             * * * * * * * * *
 
-- 020_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 022_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 4
     Output:        1
                  3 2
@@ -557,6 +573,10 @@ coding-challenges-java/
 - 012_Write a program to find the duplicate character in a string.
      Input: Marriage
     Output: [a, r]
+
+- 013_Write a program to convert a string into the following order:
+     Input: I love Java and Selenium
+    Output: Selenium dna Java evol I
 ```
 
 

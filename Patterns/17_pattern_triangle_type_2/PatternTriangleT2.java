@@ -5,7 +5,7 @@
 // Course Name          : Java SE/Core Java
 // Faculty              : Mr. Dixith SN
 // Author               : Deepjyoti Barman
-// Date                 : February 27 (Thursday), 2020
+// Date                 : February 28 (Friday), 2020
 
 
 
@@ -15,16 +15,16 @@ import java.util.Scanner;
 /**
  * It is built to generate the following program, when the number of rows N = 5
  * 
- *      *
- *      * *
- *      * * *
- *      * * * *
  *      * * * * *
+ *        * * * *
+ *          * * *
+ *            * *
+ *              *
  * 
  * @author Deepjyoti Barman
- * @since February 27, 2020
+ * @since February 28, 2020
  */
-class PatternSquareT16
+class PatternTriangleT2
 {
     static Scanner sc = new Scanner(System.in);
 
@@ -35,13 +35,14 @@ class PatternSquareT16
         {
             for (int j = 0; j < n; j++)
             {
-                if (i >= j)
+                if (i <= j)
                     System.out.print("* ");
+                else
+                    System.out.print("  ");
             }
 
             System.out.println();
         }
-        
     }
 
     // [Algorithm-2]: Creates the pattern
@@ -49,12 +50,14 @@ class PatternSquareT16
     {
         for (int i = 0; i < n; i++)
         {
-            for (int j = 0; i <= j; j++)
-                System.out.print("* ");
+            for (int j = 0; j < i; j++)
+                System.out.print("  ");
+
+            for (int j = 0; j < n - i; j++)
+                System.out.print("* ");                
             
             System.out.println();
         }
-        
     }
 
     public static void main(String[] args)
@@ -68,6 +71,6 @@ class PatternSquareT16
         drawPattern1(n);
 
         System.out.println("\nPattern using second algorithm:");
-        drawPattern1(n);
+        drawPattern2(n);
     }
 }

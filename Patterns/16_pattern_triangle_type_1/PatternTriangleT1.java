@@ -15,32 +15,42 @@ import java.util.Scanner;
 /**
  * It is built to generate the following program, when the number of rows N = 5
  * 
- *      *       *
- *        *   *
- *          *
- *        *   *
- *      *       *
+ *      *
+ *      * *
+ *      * * *
+ *      * * * *
+ *      * * * * *
  * 
  * @author Deepjyoti Barman
  * @since February 27, 2020
  */
-class PatternSquareT14
+class PatternTriangleT1
 {
     static Scanner sc = new Scanner(System.in);
 
-    // Creates the pattern
-    public static void drawPattern(int n)
+    // [Algorithm-1]: Creates the pattern
+    public static void drawPattern1(int n)
     {
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < n; j++)
             {
-                if (i == j || i + j == n - 1)
+                if (i >= j)
                     System.out.print("* ");
-                else
-                    System.out.print("  ");
             }
 
+            System.out.println();
+        }
+    }
+
+    // [Algorithm-2]: Creates the pattern
+    public static void drawPattern2(int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j <= i; j++)
+                System.out.print("* ");
+            
             System.out.println();
         }
     }
@@ -52,7 +62,10 @@ class PatternSquareT14
         System.out.println();
         sc.close();
         
-        System.out.println("Pattern:");
-        drawPattern(n);
+        System.out.println("Pattern using first algorithm:");
+        drawPattern1(n);
+
+        System.out.println("\nPattern using second algorithm:");
+        drawPattern2(n);
     }
 }

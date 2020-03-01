@@ -370,7 +370,7 @@ coding-challenges-java/
               * * * * * * *
             * * * * * * * * *
 
-- 022_Write a program to generate the following pattern, where the given no of rows N = 5.
+- 022_Write a program to generate the following pattern, where the given no of rows N = 4.
      Input: 4
     Output:        1
                  3 2

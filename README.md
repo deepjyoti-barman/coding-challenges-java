@@ -570,7 +570,7 @@ coding-challenges-java/
             h = 1
             i = 1
 
-- 012_Write a program to find the duplicate character in a string.
+- 012_Write a program to find the duplicate characters in a string.
      Input: Marriage
     Output: [a, r]
 

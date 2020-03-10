@@ -387,27 +387,27 @@ coding-challenges-java/
 
 - 024_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
-    Output:     1
-                2 1
-                3 2 1
-                4 3 2 1
-                5 4 3 2 1
+    Output: 1
+            2 1
+            3 2 1
+            4 3 2 1
+            5 4 3 2 1
 
 - 025_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
-    Output:     1 2 3 4 5
-                 2 3 4 5
-                  3 4 5
-                   4 5
-                    5
+    Output: 1 2 3 4 5
+             2 3 4 5
+              3 4 5
+               4 5
+                5
 
 - 026_Write a program to generate the following pattern, where the given no of rows N = 5.
      Input: 5
-    Output:     5 4 3 2 1
-                 4 3 2 1
-                  3 2 1
-                   2 1
-                    1
+    Output: 5 4 3 2 1
+             4 3 2 1
+              3 2 1
+               2 1
+                1
 
 - 027_Write a program to generate the following pattern, where the given no of rows N = 5 (Pascal's Triangle).
      Input: 5

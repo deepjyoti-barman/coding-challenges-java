@@ -16,13 +16,14 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * Write a program to find the duplicate characters in a string.
+ * It is built to find the duplicate characters in a string.
  *
  * @author Deepjyoti Barman
  * @since March 02, 2020
  */
 class FindDuplicateCharInStr
 {
+    // Retrieves the duplicate characters present in string and returns those storing them in an ArrayList
     public static ArrayList<Character> getDuplicateChars(String str)
     {
         LinkedHashMap<Character, Integer> charCountMap = new LinkedHashMap<>();

@@ -16,13 +16,14 @@ import java.util.Scanner;
 import java.util.Map.Entry;
 
 /**
- * Write a program to count the occurrence of each character in a string.
+ * It is built to count the occurrence of each character in a string.
  *
  * @author Deepjyoti Barman
  * @since March 02, 2020
  */
 class CountOccEachCharInStr
 {
+    // Counts occurrence of each character in the string
     public static LinkedHashMap<Character, Integer> countOccurOfEachChar(String str)
     {
         LinkedHashMap<Character, Integer> charCountMap = new LinkedHashMap<>();

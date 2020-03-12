@@ -503,15 +503,7 @@ coding-challenges-java/
      Input-2: 10
     Output-2: 0 1 1 2 3 5 8 13 21 34
 
-- 008_Write a program to generate fibonacci series upto the Nth term (by using recursion)
-  [Note: N >= 1 and N is of type int]
-     Input-1: 5
-    Output-1: 0 1 1 2 3
-
-     Input-2: 10
-    Output-2: 0 1 1 2 3 5 8 13 21 34
-
-- 009_Write a program to check whether a number is prime or not (by using recursion)
+- 008_Write a program to check whether a number is prime or not (by using recursion)
   [Note: N >= 1 and N is of type int]
      Input-1: 5
     Output-1: Prime
@@ -519,12 +511,12 @@ coding-challenges-java/
      Input-2: 27
     Output-2: Not prime
 
-- 010_Write a program to find prime numbers in between 1 to N (by using recursion)
+- 009_Write a program to find prime numbers in between 1 to N (by using recursion)
   [Note: N >= 1 and N is of type int]
      Input-1: 20
     Output-1: 2 3 5 7 11 13 17
 
-- 011_Write a program to find first N prime numbers (by using recursion)
+- 010_Write a program to find first N prime numbers (by using recursion)
   [Note: N >= 1 and N is of type int]
      Input-1: 10
     Output-1: 2 3 5 7 11 13 17 23 29 31
@@ -656,7 +648,6 @@ coding-challenges-java/
      Input: I love Java and Selenium
     Output: Selenium dna Java evol I
 ```
-
 
 ## Creators
 

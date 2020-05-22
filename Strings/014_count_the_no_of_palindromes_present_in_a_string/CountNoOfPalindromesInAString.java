@@ -5,7 +5,7 @@
 // Course Name          : Java SE/Core Java
 // Faculty              : Mr. Dixith SN
 // Author               : Deepjyoti Barman
-// Date                 : May 20, 2020 (Tuesday), 2020
+// Date                 : May 20, 2020 (Wednesday), 2020
 
 
 

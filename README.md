@@ -665,7 +665,7 @@ coding-challenges-java/
     Output: 3
 [Hint: "abccba" = palindrome, "bccb" = palindrome, "cc" = palindrome. Hence in total 3 palindromes are there in the given string.]
 
-- 015_Write a program to convert a string into the following order:
+- 015_Write a program to transform a string in the following order:
      Input: I love Java and Selenium
     Output: Selenium dna Java evol I
 ```

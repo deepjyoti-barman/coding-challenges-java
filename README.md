@@ -84,6 +84,22 @@ coding-challenges-java/
 
      Input-2: Mike Peter Bob Daisy Diana
     Output-2: There is no duplicate element in the array
+
+- 006_Write a program to completely remove all the duplicate elements in an array.
+     Input: [1, 2, 1, 3, 4, 1]
+    Output: [2, 3, 4]
+
+- 007_Write a program to shift the position of a specified element at the end of an array.
+     Input-1: [1, 2, 1, 4, 8, 5, 1, 9]
+              1
+    Output-1: [2, 4, 8, 5, 9, 1, 1, 1]
+
+     Input-2: [1, 2, 1, 4, 8, 5, 1, 9]
+              6
+    Output-2: The element 6 is not present in the array
+
+- 008_Write a program to sort Employee objects stored in an ArrayList on the basis of their salary.
+
 ```
 
 ### 2D Arrays
@@ -644,9 +660,20 @@ coding-challenges-java/
      Input: bamboo
     Output: bamo
 
-- 014_Write a program to convert a string into the following order:
+- 014_Write a program to count the no of palindromes present in a string if we split the string into substring having minimum of 2 characters.
+     Input: abccba
+    Output: 3
+[Hint: "abccba" = palindrome, "bccb" = palindrome, "cc" = palindrome. Hence in total 3 palindromes are there in the given string.]
+
+- 015_Write a program to convert a string into the following order:
      Input: I love Java and Selenium
     Output: Selenium dna Java evol I
+```
+
+### Miscellaneous
+
+```text
+- 001_Write a program to retrieve data based on given column header and row header of an MS Excel sheet.
 ```
 
 ## Creators

@@ -529,13 +529,13 @@ coding-challenges-java/
 
 - 009_Write a program to find prime numbers in between 1 to N (by using recursion)
   [Note: N >= 1 and N is of type int]
-     Input-1: 20
-    Output-1: 2 3 5 7 11 13 17
+     Input: 20
+    Output: 2 3 5 7 11 13 17 19
 
 - 010_Write a program to find first N prime numbers (by using recursion)
   [Note: N >= 1 and N is of type int]
-     Input-1: 10
-    Output-1: 2 3 5 7 11 13 17 23 29 31
+     Input: 10
+    Output: 2 3 5 7 11 13 17 19 23 29
 ```
 
 ### Strings

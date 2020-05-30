@@ -19,7 +19,6 @@ import java.util.Scanner;
  * @author Deepjyoti Barman
  * @since December 11, 2019
  */
-
 class ReverseAStringRecursive
 {
     // Returns the reverse of a string

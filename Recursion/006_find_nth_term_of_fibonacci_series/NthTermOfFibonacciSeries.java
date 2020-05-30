@@ -28,7 +28,7 @@ public class NthTermOfFibonacciSeries
 {
     static Scanner scan = new Scanner(System.in);
 
-    // Recursive algorithm that returns the nth term of Fibonacci series
+    // Returns the nth term of Fibonacci series
     static int getNthFibTerm(int pos)
     {
         if (pos <= 1)

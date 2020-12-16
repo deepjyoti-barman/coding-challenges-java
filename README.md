@@ -214,6 +214,32 @@ coding-challenges-java/
 - 006_Write a program to print the numbers which is divisible by 3 and 5 in between 1 to N.
      Input: 50
     Output: 15 30 45
+
+- 007_Write a menu driven program using switch case construct that converts a decimal number into its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
+    Input: 
+      Press 1 for Dec to Bin
+      Press 2 for Dec to Oct
+      Press 3 for Dec to Hexadecimal
+
+      Enter your choice:
+      1
+      Enter the number:
+      10
+    Output:
+      Binary Equivalent: 1010
+
+- 008_Accept a sentence which is terminated by either ".", "?" or "!". Each word of sentence is separated by a single space. Decode the words according to their potential and arrange them in ascending order.
+  
+    The encryption of alphabets is to be done as follows:
+      A = 1, B = 2, C = 3... Z = 26
+
+    The potential of a word is found by adding the encrypted value of the alphabets.
+      e.g.
+        KITE = 11 + 9 + 20 + 5 = 45
+
+     Input: THE SKY IS THE LIMIT.
+    Output: IS THE THE SKY LIMIT
+    [Potential: IS = 28, THE = 33, THE = 33, SKY = 55, LIMIT = 63]
 ```
 
 ### Patterns

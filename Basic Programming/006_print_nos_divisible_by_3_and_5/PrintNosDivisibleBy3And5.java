@@ -24,7 +24,7 @@ class PrintNosDivisibleBy3And5
 {
     static Scanner sc = new Scanner(System.in);
 
-    // [Algorithm-1]: Returns an array of numbers which are divisible by both 3 and 5 in between 1 to N
+    // Returns an array of numbers which are divisible by both 3 and 5 in between 1 to N
     public static int[] getDivisibleNumbers(int n)
     {
         ArrayList<Integer> divisibleNosList = new ArrayList<Integer>();

@@ -22,7 +22,7 @@ class PrintFirst3DigitsNum
 {
     static Scanner sc = new Scanner(System.in);
 
-    // Algorithm-1: Extracts and returns the first three digits of the number
+    // [Algorithm-1]: Extracts and returns the first three digits of the number
     public static int extractDigits1(int n)
     {
         // String strNum = String.valueOf(n);
@@ -36,7 +36,7 @@ class PrintFirst3DigitsNum
         return Integer.parseInt(threeInitialDigits);
     }
 
-    // Algorithm-2: Extracts and returns the first three digits of the number
+    // [Algorithm-2]: Extracts and returns the first three digits of the number
     public static int extractDigits2(int n)
     {
         int noOfDigits = 0;

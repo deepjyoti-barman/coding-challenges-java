@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to find the Nth term of fibonacci series (by using recursion)
+ * It is built to find the Nth term of fibonacci series (using recursive approach)
  * 
  *   Input-1: 5
  *  Output-1: 5

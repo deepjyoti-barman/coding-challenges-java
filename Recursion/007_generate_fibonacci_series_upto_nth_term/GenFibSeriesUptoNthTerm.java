@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to generate fibonacci series upto the Nth term (by using recursion)
+ * It is built to generate fibonacci series upto the Nth term (using recursive approach)
  * 
  *   Input-1: 5
  *  Output-1: 0 1 1 2 3 5

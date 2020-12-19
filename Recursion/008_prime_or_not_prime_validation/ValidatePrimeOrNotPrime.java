@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to validate whether a number is prime or not prime (by using recursion)
+ * It is built to validate whether a number is prime or not prime (using recursive approach)
  * 
  *   Input-1: 5
  *  Output-1: Prime

@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to print prime numbers from 1 to N (by using recursion)
+ * It is built to print prime numbers from 1 to N (using recursive approach)
  * 
  *   Input: 20
  *  Output: 2 3 5 7 11 13 17 19

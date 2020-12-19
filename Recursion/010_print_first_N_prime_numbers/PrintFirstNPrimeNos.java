@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to  print first N prime numbers (by using recursion)
+ * It is built to print first N prime numbers (using recursive approach)
  * 
  *   Input: 10
  *  Output: 2 3 5 7 11 13 17 19 23 29

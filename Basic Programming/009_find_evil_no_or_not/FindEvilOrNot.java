@@ -18,7 +18,7 @@ import java.util.Scanner;
  * e.g. 3, 5, 6, 9, 15 etc. [5 = 0 1 0 1, 9 = 1 0 0 1]
  * 
  * @author Deepjyoti Barman
- * @since December 16, 2020
+ * @since December 18, 2020
  */
 class FindEvilOrNot
 {

@@ -119,7 +119,7 @@ class DecToBinOctHex
         System.out.println("Enter your choice:");
         int input = sc.nextInt();
 
-        System.out.println("Enter the number:");
+        System.out.println("Enter the decimal number:");
         int num = sc.nextInt();
         sc.close();
                 

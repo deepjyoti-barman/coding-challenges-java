@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 /**
- * It is built to print numbers from 1 to N without using any loop (by using recursion)
+ * It is built to print numbers from 1 to N without using any loop (using recursive approach)
  * 
  * @author Deepjyoti Barman
  * @since January 23, 2020

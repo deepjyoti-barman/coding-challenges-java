@@ -126,8 +126,8 @@ coding-challenges-java/
     - Display the largest element of each col
     - Display the smallest element of each col
 
-- 004_Write a program and take the size of a square matrix as input. Input the elements. Display them in matrix
-  form and also print its diagonals in the given manner.
+- 004_Write a program and take the size of a square matrix as input. Input the elements. Display them
+  in matrix form and also print its diagonals in the given manner.
     e.g.
       1     3
          5
@@ -229,7 +229,7 @@ coding-challenges-java/
     Output: 15 30 45
 
 - 007_Write a menu driven program using switch case construct that converts a decimal number into 
-its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
+  its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
     Input: 
       Press 1 for Dec to Bin
       Press 2 for Dec to Oct
@@ -243,7 +243,8 @@ its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
       Binary Equivalent: 1010
 
 - 008_Accept a sentence which is terminated by either ".", "?" or "!". Each word of sentence is 
-separated by a single space. Decode the words according to their potential and arrange them in ascending order.
+  separated by a single space. Decode the words according to their potential and arrange them in 
+  ascending order.
   
     The encryption of alphabets is to be done as follows:
       A = 1, B = 2, C = 3... Z = 26
@@ -257,8 +258,8 @@ separated by a single space. Decode the words according to their potential and a
     [Potential: IS = 28, THE = 33, THE = 33, SKY = 55, LIMIT = 63]
 
 - 009_Write program and check whether the given number is an evil number or not. 
-  [Note: A number is considered to be an Evil number if the binary equivalent of the whole number is having
-  even number of 1's in it.]
+  [Note: A number is considered to be an Evil number if the binary equivalent of the whole number is 
+  having even number of 1's in it.]
     e.g. 
       3, 5, 6, 9, 15 etc. [5 = 0 1 0 1, 9 = 1 0 0 1]
 ```
@@ -707,10 +708,12 @@ separated by a single space. Decode the words according to their potential and a
      Input: bamboo
     Output: bamo
 
-- 014_Write a program to count the no of palindromes present in a string if we split the string into substring having minimum of 2 characters.
+- 014_Write a program to count the no of palindromes present in a string if we split the string into
+substring having minimum of 2 characters.
      Input: abccba
     Output: 3
-[Hint: "abccba" = palindrome, "bccb" = palindrome, "cc" = palindrome. Hence in total 3 palindromes are there in the given string.]
+[Hint: "abccba" = palindrome, "bccb" = palindrome, "cc" = palindrome. Hence in total 3 palindromes 
+are there in the given string.]
 
 - 015_Write a program to transform a string in the following order:
      Input: I love Java and Selenium

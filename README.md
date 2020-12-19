@@ -262,6 +262,22 @@ coding-challenges-java/
   having even number of 1's in it.]
     e.g. 
       3, 5, 6, 9, 15 etc. [5 = 0 1 0 1, 9 = 1 0 0 1]
+
+- 010_Write program and check whether the given number is a unique number or not.
+  [Note: A unique number is a positive integer (without leading zeros) with no duplicate digits.]
+    e.g. 
+      7, 135, 214 etc. are unique numbers
+      99, 171, 3301 etc are not unique numbers
+
+- 011_Write a program to display all the pronic numbers from 1 to n and also count how many pronic 
+  numbers are there in between the given range.
+  [Note: A pronic number / rectangular number / oblong number is a number which is represented by the 
+  product of two consecutive numbers, that is a number of the form "n x (n + 1)"]
+    e.g. 
+      0 x 1 = 0
+      1 x 2 = 2
+      2 x 3 = 6
+      3 x 4 = 12
 ```
 
 ### Patterns

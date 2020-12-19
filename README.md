@@ -99,7 +99,6 @@ coding-challenges-java/
     Output-2: The element 6 is not present in the array
 
 - 008_Write a program to sort Employee objects stored in an ArrayList on the basis of their salary.
-
 ```
 
 ### 2D Arrays
@@ -119,6 +118,20 @@ coding-challenges-java/
      Input-3: 10 20 40 30
               10 20
     Output-3: Given 2D arrays are different
+
+- 003_Write a menu driven program using switch case construct to input a M X N matrix and display it. 
+  Then perform the following operations based on user's choice:
+    - Display the largest element of each row
+    - Display the smallest element of each row
+    - Display the largest element of each col
+    - Display the smallest element of each col
+
+- 004_Write a program and take the size of a square matrix as input. Input the elements. Display them in matrix
+  form and also print its diagonals in the given manner.
+    e.g.
+      1     3
+         5
+      7     9
 ```
 
 ### Algorithms
@@ -215,7 +228,8 @@ coding-challenges-java/
      Input: 50
     Output: 15 30 45
 
-- 007_Write a menu driven program using switch case construct that converts a decimal number into its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
+- 007_Write a menu driven program using switch case construct that converts a decimal number into 
+its equivalent Binary, Octal and Hexadecimal (Assume an integer input).
     Input: 
       Press 1 for Dec to Bin
       Press 2 for Dec to Oct
@@ -228,7 +242,8 @@ coding-challenges-java/
     Output:
       Binary Equivalent: 1010
 
-- 008_Accept a sentence which is terminated by either ".", "?" or "!". Each word of sentence is separated by a single space. Decode the words according to their potential and arrange them in ascending order.
+- 008_Accept a sentence which is terminated by either ".", "?" or "!". Each word of sentence is 
+separated by a single space. Decode the words according to their potential and arrange them in ascending order.
   
     The encryption of alphabets is to be done as follows:
       A = 1, B = 2, C = 3... Z = 26
@@ -240,6 +255,12 @@ coding-challenges-java/
      Input: THE SKY IS THE LIMIT.
     Output: IS THE THE SKY LIMIT
     [Potential: IS = 28, THE = 33, THE = 33, SKY = 55, LIMIT = 63]
+
+- 009_Write program and check whether the given number is an evil number or not. 
+  [Note: A number is considered to be an Evil number if the binary equivalent of the whole number is having
+  even number of 1's in it.]
+    e.g. 
+      3, 5, 6, 9, 15 etc. [5 = 0 1 0 1, 9 = 1 0 0 1]
 ```
 
 ### Patterns

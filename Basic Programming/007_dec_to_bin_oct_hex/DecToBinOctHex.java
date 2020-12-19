@@ -33,8 +33,8 @@ class DecToBinOctHex
 {
     static Scanner sc = new Scanner(System.in);
 
-    // Returns the binary equivalent of a decimal number
-    public static String decToBin(int n)
+    // [Algorithm-1]: Returns the binary equivalent of a decimal number
+    public static String decToBin1(int n)
     {
         String bin = "";
 
@@ -46,6 +46,15 @@ class DecToBinOctHex
         }
 
         return bin;
+    }
+
+    // [Algorithm-2]: Returns the binary equivalent of a decimal number (recursive approach)
+    public static String decToBin2(int num)
+    {
+        if (num == 0) 
+            return "";
+
+        return decToBin2(num / 2) + num % 2;
     }
 
     // Returns the binary equivalent of a decimal number
@@ -117,7 +126,7 @@ class DecToBinOctHex
         switch (input)
         {
             case 1:
-                System.out.println("Binary Equivalent: " + decToBin(num));
+                System.out.println("Binary Equivalent: " + decToBin2(num));
                 break;
             case 2:
                 System.out.println("Octal Equivalent: " + decToOct(num));
